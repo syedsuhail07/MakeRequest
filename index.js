@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 import { sendEmail } from './Email.js'; 
 const app = express();
 const baseurl='https://api.mustping.com/';//https://requester-twha.onrender.com
-const url2= 'https://chat-websocker.onrender.com/'
+const url2= 'https://montaire-server.onrender.com/'
 const port= process.env.PORT || 6000;
 app.get('/', function(req, res) {
     res.status(200).send({status: 200});

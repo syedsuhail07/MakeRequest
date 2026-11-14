@@ -15,10 +15,10 @@ export async function sendEmail (message){
 // };
 // second account
 
-let service_id = 'service_7he2dof'
-let template_id =  'template_9irwoio'
-let user_id = '5g-mymygD04J2rc1o'
-let accessToken = 'sr8Y2E8P-N12Wl-Kn6x-k'
+let service_id = ''
+let template_id =  ''
+let user_id = '5g-'
+let accessToken = ''
     
 const data = {
    service_id , 
